@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{70D83AFA-BD27-49B5-9410-7564FEB9AE36}</ProjectGuid>
+    <RootNamespace>Tutorial</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>WayBackHome</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)external\FMOD\studio\inc;$(SolutionDir)external\FMOD\lowlevel\inc;$(SolutionDir)external/FreeType/include;$(SolutionDir)external;$(SolutionDir)Tutorial;$(SolutionDir)BLUE_ENGINE;$(SolutionDir)external\glm;$(SolutionDir)external\glew\include;$(SolutionDir)external\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>_MBCS;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)external\FMOD\studio\lib;$(SolutionDir)external\FMOD\lowlevel\lib;$(SolutionDir)external\FreeType\lib\x64\Debug;$(SolutionDir)external\SDL2\lib\x64;$(SolutionDir)external\glew\lib\Release\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmodstudioL64_vc.lib;fmodstudio64_vc.lib;fmod64_vc.lib;fmodL64_vc.lib;freetype.lib;glew32s.lib;opengl32.lib;SDL2.lib;SDL2main.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "..\external\SDL2\lib\x64\*.dll" "$(TargetDir)"
+xcopy /y /d "..\external\FMOD\studio\lib\*.dll" "$(TargetDir)"
+xcopy /y /d "..\external\FMOD\lowlevel\lib\*.dll" "$(TargetDir)"
+xcopy /y /d "..\external\FreeType\lib\x64\Debug\*.dll" "$(TargetDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)external\FMOD\studio\inc;$(SolutionDir)external\FMOD\lowlevel\inc;$(SolutionDir)external/FreeType/include;$(SolutionDir)external;$(SolutionDir)Tutorial;$(SolutionDir)BLUE_ENGINE;$(SolutionDir)external\glm;$(SolutionDir)external\glew\include;$(SolutionDir)external\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>_MBCS;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)external\FMOD\studio\lib;$(SolutionDir)external\FMOD\lowlevel\lib;$(SolutionDir)external\FreeType\lib\Win32\Debug;$(SolutionDir)external\SDL2\lib\x86;$(SolutionDir)external\glew\lib\Release\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmodstudioL_vc.lib;fmodstudio_vc.lib;fmod_vc.lib;fmodL_vc.lib;freetype.lib;glew32s.lib;opengl32.lib;SDL2.lib;SDL2main.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "..\external\SDL2\lib\x86\*.dll" "$(TargetDir)"
+xcopy /y /d "..\external\FMOD\studio\lib\*.dll" "$(TargetDir)"
+xcopy /y /d "..\external\FMOD\lowlevel\lib\*.dll" "$(TargetDir)"
+xcopy /y /d "..\external\FreeType\lib\Win32\Debug\*.dll" "$(TargetDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)external\FMOD\studio\inc;$(SolutionDir)external\FMOD\lowlevel\inc;$(SolutionDir)external/FreeType/include;$(SolutionDir)external;$(SolutionDir)Tutorial;$(SolutionDir)BLUE_ENGINE;$(SolutionDir)external\glm;$(SolutionDir)external\glew\include;$(SolutionDir)external\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)external\FMOD\studio\lib;$(SolutionDir)external\FMOD\lowlevel\lib;$(SolutionDir)external\FreeType\lib\Win32\Release;$(SolutionDir)external\SDL2\lib\x86;$(SolutionDir)external\glew\lib\Release\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmodstudioL_vc.lib;fmodstudio_vc.lib;fmod_vc.lib;fmodL_vc.lib;freetype.lib;glew32s.lib;opengl32.lib;SDL2.lib;SDL2main.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "..\external\FreeType\lib\Win32\Release\*.dll" "$(TargetDir)"
+xcopy /y /d "..\external\SDL2\lib\x86\*.dll" "$(TargetDir)"
+xcopy /y /d "..\external\FMOD\studio\lib\*.dll" "$(TargetDir)"
+xcopy /y /d "..\external\FMOD\lowlevel\lib\*.dll" "$(TargetDir)"
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)external\FMOD\studio\inc;$(SolutionDir)external\FMOD\lowlevel\inc;$(SolutionDir)external/FreeType/include;$(SolutionDir)external;$(SolutionDir)Tutorial;$(SolutionDir)BLUE_ENGINE;$(SolutionDir)external\glm;$(SolutionDir)external\glew\include;$(SolutionDir)external\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)external\FMOD\studio\lib;$(SolutionDir)external\FMOD\lowlevel\lib;$(SolutionDir)external\FreeType\lib\x64\Release;$(SolutionDir)external\SDL2\lib\x64;$(SolutionDir)external\glew\lib\Release\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmodstudioL64_vc.lib;fmodstudio64_vc.lib;fmod64_vc.lib;fmodL64_vc.lib;freetype.lib;glew32s.lib;opengl32.lib;SDL2.lib;SDL2main.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "..\external\SDL2\lib\x64\*.dll" "$(TargetDir)"
+xcopy /y /d "..\external\FMOD\studio\lib\*.dll" "$(TargetDir)"
+xcopy /y /d "..\external\FMOD\lowlevel\lib\*.dll" "$(TargetDir)"
+xcopy /y /d "..\external\FreeType\lib\x64\Release\*.dll" "$(TargetDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\BLUE_ENGINE\main.cpp" />
+    <ClCompile Include="Credit.cpp" />
+    <ClCompile Include="Level1.cpp" />
+    <ClCompile Include="Level10.cpp" />
+    <ClCompile Include="Level11.cpp" />
+    <ClCompile Include="Level2.cpp" />
+    <ClCompile Include="Level3.cpp" />
+    <ClCompile Include="Level4.cpp" />
+    <ClCompile Include="Level5.cpp" />
+    <ClCompile Include="Level6.cpp" />
+    <ClCompile Include="Level7.cpp" />
+    <ClCompile Include="Level8.cpp" />
+    <ClCompile Include="Level9.cpp" />
+    <ClCompile Include="LevelSelect.cpp" />
+    <ClCompile Include="LevelUpdateCollection.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="Option.cpp" />
+    <ClCompile Include="Splash.cpp" />
+    <ClCompile Include="StateManager.cpp" />
+    <ClCompile Include="TestLevel1.cpp" />
+    <ClCompile Include="TestLevel1_replay.cpp" />
+    <ClCompile Include="LevelClear.cpp" />
+    <ClCompile Include="TutoLevel1.cpp" />
+    <ClCompile Include="TutoLevel2.cpp" />
+    <ClCompile Include="TutoLevel3.cpp" />
+    <ClCompile Include="TutoLevel4.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLUE_ENGINE\BLUE_ENGINE.vcxproj">
+      <Project>{ce7f52d9-9f42-4ae4-b341-339759d48a89}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Credit.h" />
+    <ClInclude Include="Level1.h" />
+    <ClInclude Include="Level10.h" />
+    <ClInclude Include="Level11.h" />
+    <ClInclude Include="Level2.h" />
+    <ClInclude Include="Level3.h" />
+    <ClInclude Include="Level4.h" />
+    <ClInclude Include="Level5.h" />
+    <ClInclude Include="Level6.h" />
+    <ClInclude Include="Level7.h" />
+    <ClInclude Include="Level8.h" />
+    <ClInclude Include="Level9.h" />
+    <ClInclude Include="LevelHeaderCollection.h" />
+    <ClInclude Include="LevelSelect.h" />
+    <ClInclude Include="LevelUpdateCollection.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="Option.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Splash.h" />
+    <ClInclude Include="StateManager.h" />
+    <ClInclude Include="TestLevel1.h" />
+    <ClInclude Include="TestLevel1_replay.h" />
+    <ClInclude Include="LevelClear.h" />
+    <ClInclude Include="TutoLevel1.h" />
+    <ClInclude Include="TutoLevel2.h" />
+    <ClInclude Include="TutoLevel3.h" />
+    <ClInclude Include="TutoLevel4.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tutorial.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

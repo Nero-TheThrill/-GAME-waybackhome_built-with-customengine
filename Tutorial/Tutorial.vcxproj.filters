@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameState">
+      <UniqueIdentifier>{441df760-f0b2-4689-8a27-82622d62c071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\TestLevel1">
+      <UniqueIdentifier>{0fdbe9b4-34fb-4fe3-b285-94303ddf9436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StateManager">
+      <UniqueIdentifier>{82467229-8251-44ef-9b6d-6879566c58aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\Splash">
+      <UniqueIdentifier>{1f3e47f9-e003-43a1-9a5a-dd1b67c60b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\TestLevel1\Replay">
+      <UniqueIdentifier>{8364b901-3471-4cf5-a5b5-c3ed6660b003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\Tutorial">
+      <UniqueIdentifier>{90e6a0e5-faeb-463d-bcfd-2007a51da32a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\Tutorial\1">
+      <UniqueIdentifier>{71ec330d-1616-4ad8-989b-26ccb1e0e4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\Tutorial\2">
+      <UniqueIdentifier>{65e02ff7-2b8f-44d9-9e30-b5e28a34cc7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\Tutorial\3">
+      <UniqueIdentifier>{33e86539-8f2b-48f9-abb3-3c1e29176214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\Tutorial\4">
+      <UniqueIdentifier>{ff3e0fc6-267c-4fc5-830e-1bf7df1cc325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\LevelCollection">
+      <UniqueIdentifier>{a5d0a941-1662-4e47-9977-4ae592b9d257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\LevelCollection\LevelUpdateCollection">
+      <UniqueIdentifier>{240e6e7e-96a9-4e02-a31a-124cd0dfbe16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\Levels">
+      <UniqueIdentifier>{60444ca2-4292-4a18-9ac5-5b41302ffa5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\Levels\LV1">
+      <UniqueIdentifier>{5cf0cbaa-0e8b-4ba3-b17d-0377186bdd40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\Levels\LV2">
+      <UniqueIdentifier>{58736837-ff81-4eef-ba92-d0327887bf0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\Levels\LV3">
+      <UniqueIdentifier>{d1525f32-25bf-4b44-9750-ee57267e0305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\Levels\LV4">
+      <UniqueIdentifier>{5d62840c-9731-416a-ae87-9eaf9c226a72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\Levels\LV5">
+      <UniqueIdentifier>{26e7168a-23ad-4a6e-8e77-b168d632daa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\Levels\LV6">
+      <UniqueIdentifier>{e1b796ac-cab0-477f-9e5e-b34c2f79c6ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\LevelSelect">
+      <UniqueIdentifier>{baca9d10-2498-4cd6-a8b8-12f48ce84f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\ClearLevel">
+      <UniqueIdentifier>{1df2e0ee-d8eb-49af-adc9-d561f58fbb75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\Levels\LV7">
+      <UniqueIdentifier>{1c29e5e0-9268-4571-89e4-2d48246426c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\Levels\LV8">
+      <UniqueIdentifier>{7d0f44da-0550-4974-b6d1-bbd30588a403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\Levels\LV9">
+      <UniqueIdentifier>{ab1499f2-d16f-4111-b053-01746b1da6aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\Levels\LV10">
+      <UniqueIdentifier>{12c4d0db-a20f-4fcf-8ab8-0a184d96e180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\Levels\LV11">
+      <UniqueIdentifier>{42db90f3-895e-44bf-ae11-eaca179eb450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\MainMenu">
+      <UniqueIdentifier>{f2624f46-2eff-41bc-b89a-59bd472ed377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\MainMenu\Option">
+      <UniqueIdentifier>{445bf595-1266-4909-a3d7-dda81ba40735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\MainMenu\Credit">
+      <UniqueIdentifier>{ab145493-af7f-4014-b9bf-9e0a251a537e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>StateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TestLevel1.cpp">
+      <Filter>GameState\TestLevel1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BLUE_ENGINE\main.cpp" />
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>GameState\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Option.cpp">
+      <Filter>GameState\MainMenu\Option</Filter>
+    </ClCompile>
+    <ClCompile Include="Credit.cpp">
+      <Filter>GameState\MainMenu\Credit</Filter>
+    </ClCompile>
+    <ClCompile Include="Splash.cpp">
+      <Filter>GameState\Splash</Filter>
+    </ClCompile>
+    <ClCompile Include="TestLevel1_replay.cpp">
+      <Filter>GameState\TestLevel1\Replay</Filter>
+    </ClCompile>
+    <ClCompile Include="TutoLevel1.cpp">
+      <Filter>GameState\Tutorial\1</Filter>
+    </ClCompile>
+    <ClCompile Include="TutoLevel2.cpp">
+      <Filter>GameState\Tutorial\2</Filter>
+    </ClCompile>
+    <ClCompile Include="TutoLevel3.cpp">
+      <Filter>GameState\Tutorial\3</Filter>
+    </ClCompile>
+    <ClCompile Include="TutoLevel4.cpp">
+      <Filter>GameState\Tutorial\4</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelUpdateCollection.cpp">
+      <Filter>GameState\LevelCollection\LevelUpdateCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1.cpp">
+      <Filter>GameState\Levels\LV1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2.cpp">
+      <Filter>GameState\Levels\LV2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3.cpp">
+      <Filter>GameState\Levels\LV3</Filter>
+    </ClCompile>
+    <ClCompile Include="Level4.cpp">
+      <Filter>GameState\Levels\LV4</Filter>
+    </ClCompile>
+    <ClCompile Include="Level5.cpp">
+      <Filter>GameState\Levels\LV5</Filter>
+    </ClCompile>
+    <ClCompile Include="Level6.cpp">
+      <Filter>GameState\Levels\LV6</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelSelect.cpp">
+      <Filter>GameState\LevelSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelClear.cpp">
+      <Filter>GameState\ClearLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Level7.cpp">
+      <Filter>GameState\Levels\LV7</Filter>
+    </ClCompile>
+    <ClCompile Include="Level8.cpp">
+      <Filter>GameState\Levels\LV8</Filter>
+    </ClCompile>
+    <ClCompile Include="Level9.cpp">
+      <Filter>GameState\Levels\LV9</Filter>
+    </ClCompile>
+    <ClCompile Include="Level10.cpp">
+      <Filter>GameState\Levels\LV10</Filter>
+    </ClCompile>
+    <ClCompile Include="Level11.cpp">
+      <Filter>GameState\Levels\LV11</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StateManager.h">
+      <Filter>StateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TestLevel1.h">
+      <Filter>GameState\TestLevel1</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>GameState\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Option.h">
+      <Filter>GameState\MainMenu\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="Credit.h">
+      <Filter>GameState\MainMenu\Credit</Filter>
+    </ClInclude>
+    <ClInclude Include="Splash.h">
+      <Filter>GameState\Splash</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="TestLevel1_replay.h">
+      <Filter>GameState\TestLevel1\Replay</Filter>
+    </ClInclude>
+    <ClInclude Include="TutoLevel1.h">
+      <Filter>GameState\Tutorial\1</Filter>
+    </ClInclude>
+    <ClInclude Include="TutoLevel2.h">
+      <Filter>GameState\Tutorial\2</Filter>
+    </ClInclude>
+    <ClInclude Include="TutoLevel3.h">
+      <Filter>GameState\Tutorial\3</Filter>
+    </ClInclude>
+    <ClInclude Include="TutoLevel4.h">
+      <Filter>GameState\Tutorial\4</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelHeaderCollection.h">
+      <Filter>GameState\LevelCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelUpdateCollection.h">
+      <Filter>GameState\LevelCollection\LevelUpdateCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="Level1.h">
+      <Filter>GameState\Levels\LV1</Filter>
+    </ClInclude>
+    <ClInclude Include="Level2.h">
+      <Filter>GameState\Levels\LV2</Filter>
+    </ClInclude>
+    <ClInclude Include="Level3.h">
+      <Filter>GameState\Levels\LV3</Filter>
+    </ClInclude>
+    <ClInclude Include="Level4.h">
+      <Filter>GameState\Levels\LV4</Filter>
+    </ClInclude>
+    <ClInclude Include="Level5.h">
+      <Filter>GameState\Levels\LV5</Filter>
+    </ClInclude>
+    <ClInclude Include="Level6.h">
+      <Filter>GameState\Levels\LV6</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelSelect.h">
+      <Filter>GameState\LevelSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelClear.h">
+      <Filter>GameState\ClearLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Level7.h">
+      <Filter>GameState\Levels\LV7</Filter>
+    </ClInclude>
+    <ClInclude Include="Level8.h">
+      <Filter>GameState\Levels\LV8</Filter>
+    </ClInclude>
+    <ClInclude Include="Level9.h">
+      <Filter>GameState\Levels\LV9</Filter>
+    </ClInclude>
+    <ClInclude Include="Level10.h">
+      <Filter>GameState\Levels\LV10</Filter>
+    </ClInclude>
+    <ClInclude Include="Level11.h">
+      <Filter>GameState\Levels\LV11</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tutorial.rc" />
+  </ItemGroup>
+</Project>

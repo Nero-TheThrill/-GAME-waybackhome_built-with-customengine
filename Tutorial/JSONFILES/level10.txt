@@ -1,0 +1,239 @@
+{
+    "ArrayName": "ObjectArray",
+    "ArraySize": 32,
+    "Objects": [
+        {
+            "ObjectName": "Wall",
+            "ObjectTranslationX": 0.0,
+            "ObjectTranslationY": 375.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 1450.0,
+            "ObjectScaleY": 79.0
+        },
+        {
+            "ObjectName": "Wall",
+            "ObjectTranslationX": 0.0,
+            "ObjectTranslationY": -386.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 1450.0,
+            "ObjectScaleY": 79.0
+        },
+        {
+            "ObjectName": "Portal",
+            "ObjectTranslationX": 600.0,
+            "ObjectTranslationY": 11.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Puddle",
+            "ObjectTranslationX": -437.0,
+            "ObjectTranslationY": 56.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 2
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": -619.0,
+            "ObjectTranslationY": -152.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": -539.0,
+            "ObjectTranslationY": -151.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 1
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": -449.0,
+            "ObjectTranslationY": -154.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": -370.0,
+            "ObjectTranslationY": -157.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 1
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": -283.0,
+            "ObjectTranslationY": -153.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": -194.0,
+            "ObjectTranslationY": -154.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 2
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": -146.0,
+            "ObjectTranslationY": -64.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 1
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": -146.0,
+            "ObjectTranslationY": 23.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": -147.0,
+            "ObjectTranslationY": 109.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 1
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": -149.0,
+            "ObjectTranslationY": 193.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Door",
+            "ObjectTranslationX": -139.0,
+            "ObjectTranslationY": 278.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 1,
+            "ObjectItemType": 8.0
+        },
+        {
+            "ObjectName": "Key",
+            "ObjectTranslationX": -591.0,
+            "ObjectTranslationY": -268.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 2
+        },
+        {
+            "ObjectName": "Box",
+            "ObjectTranslationX": -580.0,
+            "ObjectTranslationY": 268.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Vine",
+            "ObjectTranslationX": 562.0,
+            "ObjectTranslationY": 160.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 2
+        },
+        {
+            "ObjectName": "Vine",
+            "ObjectTranslationX": 441.0,
+            "ObjectTranslationY": 16.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 1
+        },
+        {
+            "ObjectName": "Vine",
+            "ObjectTranslationX": 463.0,
+            "ObjectTranslationY": 93.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 2
+        },
+        {
+            "ObjectName": "Vine",
+            "ObjectTranslationX": 481.0,
+            "ObjectTranslationY": -69.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 2
+        },
+        {
+            "ObjectName": "Vine",
+            "ObjectTranslationX": 606.0,
+            "ObjectTranslationY": -121.0,
+            "ObjectTranslationZ": 0.5,
+            "CurrentState": 1
+        },
+        {
+            "ObjectName": "BlastFurnace",
+            "ObjectTranslationX": -274.0,
+            "ObjectTranslationY": -72.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 2
+        },
+        {
+            "ObjectName": "Seed",
+            "ObjectTranslationX": -488.0,
+            "ObjectTranslationY": 26.0,
+            "ObjectTranslationZ": -7.828999996185303,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Axe",
+            "ObjectTranslationX": -533.0,
+            "ObjectTranslationY": 54.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 1
+        },
+        {
+            "ObjectName": "Vine",
+            "ObjectTranslationX": 387.0,
+            "ObjectTranslationY": 185.0,
+            "ObjectTranslationZ": 75.46299743652344,
+            "CurrentState": 2
+        },
+        {
+            "ObjectName": "Torch",
+            "ObjectTranslationX": 351.0,
+            "ObjectTranslationY": 181.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Vine",
+            "ObjectTranslationX": 322.0,
+            "ObjectTranslationY": 188.0,
+            "ObjectTranslationZ": 8.829000473022461,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Vine",
+            "ObjectTranslationX": 412.0,
+            "ObjectTranslationY": 213.0,
+            "ObjectTranslationZ": 108.77899932861328,
+            "CurrentState": 1
+        },
+        {
+            "ObjectName": "Wall1",
+            "ObjectTranslationX": -695.0,
+            "ObjectTranslationY": -5.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 78.0,
+            "ObjectScaleY": 825.0
+        },
+        {
+            "ObjectName": "Wall1",
+            "ObjectTranslationX": 727.0,
+            "ObjectTranslationY": -7.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 78.0,
+            "ObjectScaleY": 825.0
+        },
+        {
+            "ObjectName": "Vine",
+            "ObjectTranslationX": 624.0,
+            "ObjectTranslationY": 171.0,
+            "ObjectTranslationZ": 17.158000946044923,
+            "CurrentState": 1
+        }
+    ]
+}

@@ -1,0 +1,144 @@
+{
+    "ArrayName": "ObjectArray",
+    "ArraySize": 17,
+    "Objects": [
+        {
+            "ObjectName": "Wall",
+            "ObjectTranslationX": 13.0,
+            "ObjectTranslationY": 388.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 1050.0,
+            "ObjectScaleY": 70.0
+        },
+        {
+            "ObjectName": "Wall",
+            "ObjectTranslationX": 35.0,
+            "ObjectTranslationY": -351.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 1104.0,
+            "ObjectScaleY": 76.0
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": 95.0,
+            "ObjectTranslationY": 251.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "PoisonPlant",
+            "ObjectTranslationX": 435.0,
+            "ObjectTranslationY": -154.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 1,
+            "ObjectDirectionX": -8.0,
+            "ObjectDirectionY": 0.0
+        },
+        {
+            "ObjectName": "PoisonPlant",
+            "ObjectTranslationX": 438.0,
+            "ObjectTranslationY": -253.0,
+            "ObjectTranslationZ": 200.0,
+            "CurrentState": 1,
+            "ObjectDirectionX": -10.0,
+            "ObjectDirectionY": 0.0
+        },
+        {
+            "ObjectName": "Vine",
+            "ObjectTranslationX": 315.0,
+            "ObjectTranslationY": 301.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Vine",
+            "ObjectTranslationX": 315.0,
+            "ObjectTranslationY": 223.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "PoisonPlant",
+            "ObjectTranslationX": 191.0,
+            "ObjectTranslationY": -59.0,
+            "ObjectTranslationZ": 200.0,
+            "CurrentState": 1,
+            "ObjectDirectionX": 28.0,
+            "ObjectDirectionY": 0.0
+        },
+        {
+            "ObjectName": "Door",
+            "ObjectTranslationX": 312.0,
+            "ObjectTranslationY": 123.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 1,
+            "ObjectItemType": 4.0
+        },
+        {
+            "ObjectName": "Portal",
+            "ObjectTranslationX": 426.0,
+            "ObjectTranslationY": 282.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Tree",
+            "ObjectTranslationX": -324.0,
+            "ObjectTranslationY": -143.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 1
+        },
+        {
+            "ObjectName": "Wall3",
+            "ObjectTranslationX": 290.0,
+            "ObjectTranslationY": 28.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 466.0,
+            "ObjectScaleY": 71.0
+        },
+        {
+            "ObjectName": "Wall2",
+            "ObjectTranslationX": 96.0,
+            "ObjectTranslationY": 36.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 79.0,
+            "ObjectScaleY": 377.0
+        },
+        {
+            "ObjectName": "Wall1",
+            "ObjectTranslationX": -488.0,
+            "ObjectTranslationY": 26.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 77.0,
+            "ObjectScaleY": 791.0
+        },
+        {
+            "ObjectName": "Wall1",
+            "ObjectTranslationX": 551.0,
+            "ObjectTranslationY": 9.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 77.0,
+            "ObjectScaleY": 792.0
+        },
+        {
+            "ObjectName": "Tree",
+            "ObjectTranslationX": -322.0,
+            "ObjectTranslationY": 186.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 1
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": 95.0,
+            "ObjectTranslationY": 324.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 1
+        }
+    ]
+}

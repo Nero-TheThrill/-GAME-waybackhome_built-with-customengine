@@ -1,0 +1,63 @@
+{
+    "ArrayName": "ObjectArray",
+    "ArraySize": 7,
+    "Objects": [
+        {
+            "ObjectName": "Portal",
+            "ObjectTranslationX": -7.0,
+            "ObjectTranslationY": 441.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Wall",
+            "ObjectTranslationX": 16.0,
+            "ObjectTranslationY": -170.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 728.0,
+            "ObjectScaleY": 80.0
+        },
+        {
+            "ObjectName": "Wall1",
+            "ObjectTranslationX": 338.0,
+            "ObjectTranslationY": 179.0,
+            "ObjectTranslationZ": 0.5,
+            "CurrentState": 0,
+            "ObjectScaleX": 76.0,
+            "ObjectScaleY": 741.0
+        },
+        {
+            "ObjectName": "Wall1",
+            "ObjectTranslationX": -304.0,
+            "ObjectTranslationY": 175.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 76.0,
+            "ObjectScaleY": 741.0
+        },
+        {
+            "ObjectName": "Wall",
+            "ObjectTranslationX": 20.0,
+            "ObjectTranslationY": 544.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 728.0,
+            "ObjectScaleY": 80.0
+        },
+        {
+            "ObjectName": "GhostRiver",
+            "ObjectTranslationX": 692.0,
+            "ObjectTranslationY": 271.0,
+            "ObjectTranslationZ": -3.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "GhostRiver",
+            "ObjectTranslationX": -678.0,
+            "ObjectTranslationY": 271.0,
+            "ObjectTranslationZ": -3.0,
+            "CurrentState": 0
+        }
+    ]
+}

@@ -1,0 +1,225 @@
+{
+    "ArrayName": "ObjectArray",
+    "ArraySize": 29,
+    "Objects": [
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": 0.0,
+            "ObjectTranslationY": 100.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 2
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": 75.0,
+            "ObjectTranslationY": 100.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 2
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": 150.0,
+            "ObjectTranslationY": 100.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 2
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": 226.0,
+            "ObjectTranslationY": 100.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": 301.0,
+            "ObjectTranslationY": 100.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": 300.0,
+            "ObjectTranslationY": 34.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": 3.0,
+            "ObjectTranslationY": -100.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": 76.0,
+            "ObjectTranslationY": -100.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": 149.0,
+            "ObjectTranslationY": -100.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": 224.0,
+            "ObjectTranslationY": -100.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": 301.0,
+            "ObjectTranslationY": -100.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": 300.0,
+            "ObjectTranslationY": -34.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "PoisonPlant",
+            "ObjectTranslationX": -71.0,
+            "ObjectTranslationY": 100.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 2,
+            "ObjectDirectionX": 0.0,
+            "ObjectDirectionY": 3.0
+        },
+        {
+            "ObjectName": "PoisonPlant",
+            "ObjectTranslationX": -146.0,
+            "ObjectTranslationY": -103.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 2,
+            "ObjectDirectionX": 0.0,
+            "ObjectDirectionY": -3.0
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": -217.0,
+            "ObjectTranslationY": 100.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 1
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": -216.0,
+            "ObjectTranslationY": -100.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": -291.0,
+            "ObjectTranslationY": 100.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 1
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": -289.0,
+            "ObjectTranslationY": -100.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "PoisonPlant",
+            "ObjectTranslationX": -430.0,
+            "ObjectTranslationY": 105.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 2,
+            "ObjectDirectionX": 0.0,
+            "ObjectDirectionY": 3.0
+        },
+        {
+            "ObjectName": "PoisonPlant",
+            "ObjectTranslationX": -365.0,
+            "ObjectTranslationY": -101.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 2,
+            "ObjectDirectionX": 0.0,
+            "ObjectDirectionY": -1.0
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": -496.0,
+            "ObjectTranslationY": 100.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": -570.0,
+            "ObjectTranslationY": 100.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": -499.0,
+            "ObjectTranslationY": -100.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": -570.0,
+            "ObjectTranslationY": -99.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Portal",
+            "ObjectTranslationX": -680.0,
+            "ObjectTranslationY": 1.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Wall",
+            "ObjectTranslationX": -182.0,
+            "ObjectTranslationY": 169.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 1151.0,
+            "ObjectScaleY": 73.0
+        },
+        {
+            "ObjectName": "Wall",
+            "ObjectTranslationX": -181.0,
+            "ObjectTranslationY": -163.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 1149.0,
+            "ObjectScaleY": 73.0
+        },
+        {
+            "ObjectName": "Wall2",
+            "ObjectTranslationX": 380.0,
+            "ObjectTranslationY": 0.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 75.0,
+            "ObjectScaleY": 362.0
+        },
+        {
+            "ObjectName": "Wall2",
+            "ObjectTranslationX": -757.0,
+            "ObjectTranslationY": -8.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 63.0,
+            "ObjectScaleY": 381.0
+        }
+    ]
+}

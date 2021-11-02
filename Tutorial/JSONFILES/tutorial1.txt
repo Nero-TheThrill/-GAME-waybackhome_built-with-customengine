@@ -1,0 +1,63 @@
+{
+    "ArrayName": "ObjectArray",
+    "ArraySize": 7,
+    "Objects": [
+        {
+            "ObjectName": "Portal",
+            "ObjectTranslationX": 724.0,
+            "ObjectTranslationY": 6.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Log",
+            "ObjectTranslationX": 598.0,
+            "ObjectTranslationY": -58.0,
+            "ObjectTranslationZ": 200.39999389648438,
+            "CurrentState": 1
+        },
+        {
+            "ObjectName": "Log",
+            "ObjectTranslationX": 555.0,
+            "ObjectTranslationY": -280.0,
+            "ObjectTranslationZ": 960.0,
+            "CurrentState": 1
+        },
+        {
+            "ObjectName": "Wall",
+            "ObjectTranslationX": 382.0,
+            "ObjectTranslationY": 154.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 1019.0,
+            "ObjectScaleY": 76.0
+        },
+        {
+            "ObjectName": "Wall",
+            "ObjectTranslationX": 382.0,
+            "ObjectTranslationY": -148.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 1019.0,
+            "ObjectScaleY": 76.0
+        },
+        {
+            "ObjectName": "Wall2",
+            "ObjectTranslationX": -82.0,
+            "ObjectTranslationY": -5.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 87.0,
+            "ObjectScaleY": 356.0
+        },
+        {
+            "ObjectName": "Wall2",
+            "ObjectTranslationX": 846.0,
+            "ObjectTranslationY": 2.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 92.0,
+            "ObjectScaleY": 367.0
+        }
+    ]
+}

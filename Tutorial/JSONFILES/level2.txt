@@ -1,0 +1,100 @@
+{
+    "ArrayName": "ObjectArray",
+    "ArraySize": 12,
+    "Objects": [
+        {
+            "ObjectName": "Wall",
+            "ObjectTranslationX": 3.0,
+            "ObjectTranslationY": -171.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 1102.0,
+            "ObjectScaleY": 78.0
+        },
+        {
+            "ObjectName": "Wall",
+            "ObjectTranslationX": 7.0,
+            "ObjectTranslationY": 212.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 1102.0,
+            "ObjectScaleY": 79.0
+        },
+        {
+            "ObjectName": "Portal",
+            "ObjectTranslationX": 405.0,
+            "ObjectTranslationY": 12.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Door",
+            "ObjectTranslationX": 283.0,
+            "ObjectTranslationY": 102.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 1,
+            "ObjectItemType": 8.0
+        },
+        {
+            "ObjectName": "Door",
+            "ObjectTranslationX": 284.0,
+            "ObjectTranslationY": -74.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 1,
+            "ObjectItemType": 8.0
+        },
+        {
+            "ObjectName": "Spike",
+            "ObjectTranslationX": 283.0,
+            "ObjectTranslationY": 13.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 1
+        },
+        {
+            "ObjectName": "Key",
+            "ObjectTranslationX": -254.0,
+            "ObjectTranslationY": -39.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Key",
+            "ObjectTranslationX": -396.0,
+            "ObjectTranslationY": 53.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Torch",
+            "ObjectTranslationX": -285.0,
+            "ObjectTranslationY": 85.0,
+            "ObjectTranslationZ": 200.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Torch",
+            "ObjectTranslationX": -346.0,
+            "ObjectTranslationY": -46.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Wall2",
+            "ObjectTranslationX": 530.0,
+            "ObjectTranslationY": 18.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 82.0,
+            "ObjectScaleY": 417.0
+        },
+        {
+            "ObjectName": "Wall2",
+            "ObjectTranslationX": -512.0,
+            "ObjectTranslationY": 19.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 79.0,
+            "ObjectScaleY": 392.0
+        }
+    ]
+}

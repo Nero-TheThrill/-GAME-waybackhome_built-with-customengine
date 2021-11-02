@@ -1,0 +1,56 @@
+{
+    "ArrayName": "ObjectArray",
+    "ArraySize": 6,
+    "Objects": [
+        {
+            "ObjectName": "Portal",
+            "ObjectTranslationX": 624.0,
+            "ObjectTranslationY": -10.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0
+        },
+        {
+            "ObjectName": "Wall",
+            "ObjectTranslationX": 331.0,
+            "ObjectTranslationY": 115.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 897.0,
+            "ObjectScaleY": 78.0
+        },
+        {
+            "ObjectName": "Wall",
+            "ObjectTranslationX": 329.0,
+            "ObjectTranslationY": -137.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 897.0,
+            "ObjectScaleY": 78.0
+        },
+        {
+            "ObjectName": "Wall2",
+            "ObjectTranslationX": -79.0,
+            "ObjectTranslationY": -8.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 78.0,
+            "ObjectScaleY": 288.0
+        },
+        {
+            "ObjectName": "Wall2",
+            "ObjectTranslationX": 743.0,
+            "ObjectTranslationY": -19.0,
+            "ObjectTranslationZ": 0.0,
+            "CurrentState": 0,
+            "ObjectScaleX": 78.0,
+            "ObjectScaleY": 287.0
+        },
+        {
+            "ObjectName": "Seed",
+            "ObjectTranslationX": 499.0,
+            "ObjectTranslationY": -34.0,
+            "ObjectTranslationZ": 58.80400085449219,
+            "CurrentState": 0
+        }
+    ]
+}

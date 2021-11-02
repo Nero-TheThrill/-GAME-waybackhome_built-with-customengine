@@ -1,0 +1,6 @@
+{
+    "ArrayName": "ObjectArray",
+    "ArraySize": 0,
+    "Objects": [
+       ]
+}

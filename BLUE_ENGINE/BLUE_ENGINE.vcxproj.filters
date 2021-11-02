@@ -1,0 +1,726 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Component">
+      <UniqueIdentifier>{a5f451e3-86ca-43bf-9ed6-0eca99b82069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Collision">
+      <UniqueIdentifier>{309acbc6-7d11-4346-88e3-abec29e7ef3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Transform">
+      <UniqueIdentifier>{842cc5de-e6e5-452c-94e5-82f1ea9804ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Physics">
+      <UniqueIdentifier>{d052cda9-c473-4380-bf69-9b833e64f104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Physics\Line">
+      <UniqueIdentifier>{50c9570c-1647-486a-a5fa-4fba7bb8ee74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Physics\Rectangle">
+      <UniqueIdentifier>{88b1bd86-f1a7-427e-8ef3-f69989c74142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{11e2b4c7-8e47-4b22-92ce-5af0544688fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{aee62ddb-fbdd-4f80-928c-2fa309ef62ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{a746a67e-30b0-4648-8b34-6c15e1591e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON\WRITER">
+      <UniqueIdentifier>{5b090e6b-2de2-4cf2-8307-8b4469c60722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON\READER">
+      <UniqueIdentifier>{d3c1f3b4-0ac1-46bb-8912-d71eae73b02e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LevelSystem">
+      <UniqueIdentifier>{baa745af-cc65-42aa-9822-9feecff7083f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFactory">
+      <UniqueIdentifier>{339aa727-ecc7-4bdd-a7d9-0e03c19d07b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFactory\Object">
+      <UniqueIdentifier>{451ae2a6-2b76-4d2a-91fc-46fdd76ee0ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFactory\ObjectSpawner">
+      <UniqueIdentifier>{9bfd7198-5f1a-46e7-8957-7f45e5f82c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{65e02bf6-4a0c-452e-8470-12eabe87673b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Application">
+      <UniqueIdentifier>{16e91df6-1a14-4584-a7b3-e0089fe21c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Input">
+      <UniqueIdentifier>{e4e86f4c-7858-4bdc-ab16-e0b76e70db23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Timer">
+      <UniqueIdentifier>{f972032e-308e-439e-960d-8601316b5edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Sprite">
+      <UniqueIdentifier>{c44f4f6c-a2ed-41fe-8788-d5a4181c0469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{5a7361d8-6abd-4503-8784-35f51d54f1c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Rigidbody">
+      <UniqueIdentifier>{ff1292c2-5c68-4785-a2db-b7abe7539809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\ObjectController">
+      <UniqueIdentifier>{e85b75ee-dd0c-4990-91ac-ac5d97726770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Controllers">
+      <UniqueIdentifier>{a1ca3e3d-54d7-4fdf-bcf9-7320cb835299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\SpriteText">
+      <UniqueIdentifier>{ddcc9bec-5006-4c00-8996-4fdd1c79c752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{15f48789-5ec0-4ef2-a0c2-03342206184e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Controllers\RustKey">
+      <UniqueIdentifier>{5fe9607e-bbda-45ab-ae4e-bde2facfb1c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Controllers\Box">
+      <UniqueIdentifier>{1f30fca5-023c-4529-b9a8-b43cf047b4fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Controllers\Seed">
+      <UniqueIdentifier>{381218bf-175a-4576-8de2-36def809638c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Controllers\Tree">
+      <UniqueIdentifier>{3f45df64-6e86-4387-965a-63e192d0d54d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Controllers\Axe">
+      <UniqueIdentifier>{1f0bba17-8241-435d-8694-c977e71e9a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Bullet">
+      <UniqueIdentifier>{5e398518-97cd-4d5c-81ad-b070dae4feec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Bullet\PastBulletController">
+      <UniqueIdentifier>{4f34b048-2748-483c-a350-021295dc4b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Bullet\FutureBulletController">
+      <UniqueIdentifier>{68720038-57f6-4a8a-b720-e6721bb9020e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Enemy">
+      <UniqueIdentifier>{b1a98b13-0b2e-44d8-b2ce-e2cdff7452be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\GhostBox">
+      <UniqueIdentifier>{cc651abe-f63a-4cf7-a124-22ec248224dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Player">
+      <UniqueIdentifier>{a2f51a73-1d4b-428c-ab95-bc2d8c22197c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Physics\Circle">
+      <UniqueIdentifier>{ed06c9d3-3c5e-456c-b689-a0af5bdc27ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Mouse">
+      <UniqueIdentifier>{a0d1e2d3-8512-4deb-b7dd-050da2d3ee49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Controllers\River">
+      <UniqueIdentifier>{16d4c4d1-ab28-4ba0-8fb2-f1c70366e14b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Controllers\Log">
+      <UniqueIdentifier>{ce075720-bf57-4f33-8b4e-52e71f530276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Controllers\River\GhostRiver">
+      <UniqueIdentifier>{19a0c759-b689-4c14-bdea-6f9484a51f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PauseState">
+      <UniqueIdentifier>{1bacf6c6-d3a3-4f73-9e24-b4309fb9954b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Controllers\Portal">
+      <UniqueIdentifier>{34ce0505-c4ca-4910-8f62-67d092e4eca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Controllers\Wall">
+      <UniqueIdentifier>{d668bcd4-c85f-42c4-b10a-922223c993de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMGUImanager">
+      <UniqueIdentifier>{7de2847b-e3bb-4ecb-8f40-60f1c1743d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMGUImanager\IMGUI">
+      <UniqueIdentifier>{29f691f2-f90a-4ede-8378-749fc9df82a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Replay">
+      <UniqueIdentifier>{b6d21a36-ffcb-4512-bfad-fd7882597c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Mouse\Cursor">
+      <UniqueIdentifier>{460a40c6-e53e-4255-ba9d-1a06ce99368d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Controllers\Spike">
+      <UniqueIdentifier>{d9df09d7-52ca-4caf-a274-a572adf5e72b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Controllers\Blast furnace">
+      <UniqueIdentifier>{20a0807c-3b82-45bc-9636-c2654b837d3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Controllers\PoisonPlant">
+      <UniqueIdentifier>{bf1b1c00-52c9-431f-b44b-1fbcb96cf97e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Bullet\PoisonBulletController">
+      <UniqueIdentifier>{6b6a8460-deca-4d5b-bf5c-dc7814224c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Controllers\Door">
+      <UniqueIdentifier>{5167cbe8-39c9-4cf5-a324-8476df001ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Draw">
+      <UniqueIdentifier>{82f6ef1d-e6fa-460b-bd06-09511cdbc462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Draw\Camera">
+      <UniqueIdentifier>{09198a40-8c5a-4824-8300-0316331aeff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Draw\Camera\FadeEffect">
+      <UniqueIdentifier>{ae0290bf-9005-4034-aabf-9d4fe78f0836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Draw\Camera\LerpSmoothing">
+      <UniqueIdentifier>{f3601818-d18d-4e96-a4dc-11043e686ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Draw\Camera\CurbCameraMotion">
+      <UniqueIdentifier>{d215004e-37ad-45dd-9b0a-2b18fd0430ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Draw\Mesh">
+      <UniqueIdentifier>{7038b26d-8e6f-4bb7-9269-89d9cd86b5cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Draw\Particle">
+      <UniqueIdentifier>{a8582249-6d25-4117-93c4-5d0af6ea1c85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Draw\Resolution">
+      <UniqueIdentifier>{ba9813fb-e12e-4efa-b435-3e65f025bbb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Draw\Shader">
+      <UniqueIdentifier>{9f316e0a-33cf-429f-97db-843b0a755b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Draw\SmokeEffects">
+      <UniqueIdentifier>{b2b4d496-d66c-4732-8d64-15366d91a5aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Draw\Texture">
+      <UniqueIdentifier>{3593540a-1a2c-4097-914e-8c35c1f63467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Draw\Texture\TexturePath">
+      <UniqueIdentifier>{f2a4f056-a098-431d-a431-09eef835a213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Dialogue">
+      <UniqueIdentifier>{7d7f52f2-b94e-4c63-8e0e-638127bc99aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Controllers\Vine">
+      <UniqueIdentifier>{352cceec-24fb-49c5-83c8-f1b141ce8cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Controllers\WoodBoard">
+      <UniqueIdentifier>{67ff7ba3-b79c-4262-a683-7a7c61b62f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Controllers\Torch">
+      <UniqueIdentifier>{8bdd3537-28f8-4fc5-bcfe-a9fabc446233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Controllers\Puddle">
+      <UniqueIdentifier>{5ea0b1ed-5429-4e10-a174-480cd57d36ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\ObjectController\HELPER">
+      <UniqueIdentifier>{61ca7535-c267-4d25-9a15-8c426959a3ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Button">
+      <UniqueIdentifier>{faf0bd42-6c05-49bc-b764-067421b8e56a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PopupMessage">
+      <UniqueIdentifier>{3b28cbc7-1956-4fee-9309-61155d64e1ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>System\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>System\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>ObjectFactory\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFactory.cpp">
+      <Filter>ObjectFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Component\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Line2D.cpp">
+      <Filter>Component\Physics\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Component\Physics\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Component\Physics\Rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyController.cpp">
+      <Filter>Controller\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONWRITER.cpp">
+      <Filter>JSON\WRITER</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONREADER.cpp">
+      <Filter>JSON\READER</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectSpawner.cpp">
+      <Filter>ObjectFactory\ObjectSpawner</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Controller\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="IMGUImanager.cpp">
+      <Filter>IMGUImanager</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>IMGUImanager\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>IMGUImanager\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>IMGUImanager\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_opengl3.cpp">
+      <Filter>IMGUImanager\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_sdl.cpp">
+      <Filter>IMGUImanager\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>IMGUImanager\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Graphics\Draw\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Graphics\Draw\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Graphics\Draw\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody.cpp">
+      <Filter>Component\Rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="FutureBulletController.cpp">
+      <Filter>Controller\Bullet\FutureBulletController</Filter>
+    </ClCompile>
+    <ClCompile Include="PastBulletController.cpp">
+      <Filter>Controller\Bullet\PastBulletController</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectController.cpp">
+      <Filter>Controller\ObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="SeedController.cpp">
+      <Filter>Controller\Controllers\Seed</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeController.cpp">
+      <Filter>Controller\Controllers\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Graphics\Draw\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteText.cpp">
+      <Filter>Component\SpriteText</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxController.cpp">
+      <Filter>Controller\Controllers\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="RustKeyController.cpp">
+      <Filter>Controller\Controllers\RustKey</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletController.cpp">
+      <Filter>Controller\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseController.cpp">
+      <Filter>Controller\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="RiverController.cpp">
+      <Filter>Controller\Controllers\River</Filter>
+    </ClCompile>
+    <ClCompile Include="AxeController.cpp">
+      <Filter>Controller\Controllers\Axe</Filter>
+    </ClCompile>
+    <ClCompile Include="LogController.cpp">
+      <Filter>Controller\Controllers\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="GhostRiverController.cpp">
+      <Filter>Controller\Controllers\River\GhostRiver</Filter>
+    </ClCompile>
+    <ClCompile Include="SmokeEffects.cpp">
+      <Filter>Graphics\Draw\SmokeEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseScreen.cpp">
+      <Filter>PauseState</Filter>
+    </ClCompile>
+    <ClCompile Include="OBB_Collision.cpp">
+      <Filter>Component\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp">
+      <Filter>Controller\Controllers\Portal</Filter>
+    </ClCompile>
+    <ClCompile Include="GhostController.cpp">
+      <Filter>Controller\GhostBox</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturePath.cpp">
+      <Filter>Graphics\Draw\Texture\TexturePath</Filter>
+    </ClCompile>
+    <ClCompile Include="WallController.cpp">
+      <Filter>Controller\Controllers\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="ReplaySystem.cpp">
+      <Filter>Replay</Filter>
+    </ClCompile>
+    <ClCompile Include="CursorController.cpp">
+      <Filter>Controller\Mouse\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeEffect.cpp">
+      <Filter>Graphics\Draw\Camera\FadeEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="LerpSmoothing.cpp">
+      <Filter>Graphics\Draw\Camera\LerpSmoothing</Filter>
+    </ClCompile>
+    <ClCompile Include="CurbCameraMotion.cpp">
+      <Filter>Graphics\Draw\Camera\CurbCameraMotion</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Graphics\Draw\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="SpikeController.cpp">
+      <Filter>Controller\Controllers\Spike</Filter>
+    </ClCompile>
+    <ClCompile Include="BlastFurnaceController.cpp">
+      <Filter>Controller\Controllers\Blast furnace</Filter>
+    </ClCompile>
+    <ClCompile Include="PoisonplantController.cpp">
+      <Filter>Controller\Controllers\PoisonPlant</Filter>
+    </ClCompile>
+    <ClCompile Include="PoisonPlantManager.cpp">
+      <Filter>Controller\Controllers\PoisonPlant</Filter>
+    </ClCompile>
+    <ClCompile Include="PoisonBulletController.cpp">
+      <Filter>Controller\Bullet\PoisonBulletController</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorController.cpp">
+      <Filter>Controller\Controllers\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="Resolution.cpp">
+      <Filter>Graphics\Draw\Resolution</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Component\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Graphics\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue.cpp">
+      <Filter>Graphics\Dialogue</Filter>
+    </ClCompile>
+    <ClCompile Include="VineController.cpp">
+      <Filter>Controller\Controllers\Vine</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodBoardController.cpp">
+      <Filter>Controller\Controllers\WoodBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="TorchController.cpp">
+      <Filter>Controller\Controllers\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="PuddleController.cpp">
+      <Filter>Controller\Controllers\Puddle</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>Controller\ObjectController\HELPER</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Graphics\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="WallController3.cpp">
+      <Filter>Controller\Controllers\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="WallController2.cpp">
+      <Filter>Controller\Controllers\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="WallController1.cpp">
+      <Filter>Controller\Controllers\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupMessage.cpp">
+      <Filter>PopupMessage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>System\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelSystem.h">
+      <Filter>LevelSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>System\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentType.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>ObjectFactory\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFactory.h">
+      <Filter>ObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectType.h">
+      <Filter>ObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Component\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.hpp">
+      <Filter>Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Line2D.h">
+      <Filter>Component\Physics\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Component\Physics\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Component\Physics\Rectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyController.h">
+      <Filter>Controller\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONWRITER.h">
+      <Filter>JSON\WRITER</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONREADER.h">
+      <Filter>JSON\READER</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectSpawner.h">
+      <Filter>ObjectFactory\ObjectSpawner</Filter>
+    </ClInclude>
+    <ClInclude Include="IMGUImanager.h">
+      <Filter>IMGUImanager</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>IMGUImanager\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>IMGUImanager\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_opengl3.h">
+      <Filter>IMGUImanager\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_sdl.h">
+      <Filter>IMGUImanager\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imugi_internal.h">
+      <Filter>IMGUImanager\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>IMGUImanager\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>IMGUImanager\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>IMGUImanager\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Graphics\Draw\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Graphics\Draw\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Graphics\Draw\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderSource.h">
+      <Filter>Graphics\Draw\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Graphics\Draw\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>Component\Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="FutureBulletController.h">
+      <Filter>Controller\Bullet\FutureBulletController</Filter>
+    </ClInclude>
+    <ClInclude Include="PastBulletController.h">
+      <Filter>Controller\Bullet\PastBulletController</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectController.h">
+      <Filter>Controller\ObjectController</Filter>
+    </ClInclude>
+    <ClInclude Include="SeedController.h">
+      <Filter>Controller\Controllers\Seed</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeController.h">
+      <Filter>Controller\Controllers\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerType.h">
+      <Filter>Controller\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseController.h">
+      <Filter>Controller\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Graphics\Draw\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteText.h">
+      <Filter>Component\SpriteText</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxController.h">
+      <Filter>Controller\Controllers\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="RustKeyController.h">
+      <Filter>Controller\Controllers\RustKey</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletController.h">
+      <Filter>Controller\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseController.h">
+      <Filter>Controller\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="RiverController.h">
+      <Filter>Controller\Controllers\River</Filter>
+    </ClInclude>
+    <ClInclude Include="AxeController.h">
+      <Filter>Controller\Controllers\Axe</Filter>
+    </ClInclude>
+    <ClInclude Include="LogController.h">
+      <Filter>Controller\Controllers\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="GhostRiverController.h">
+      <Filter>Controller\Controllers\River\GhostRiver</Filter>
+    </ClInclude>
+    <ClInclude Include="SmokeEffects.h">
+      <Filter>Graphics\Draw\SmokeEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseScreen.h">
+      <Filter>PauseState</Filter>
+    </ClInclude>
+    <ClInclude Include="OBB_Collision.h">
+      <Filter>Component\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.h">
+      <Filter>Controller\Controllers\Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="GhostController.h">
+      <Filter>Controller\GhostBox</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturePath.h">
+      <Filter>Graphics\Draw\Texture\TexturePath</Filter>
+    </ClInclude>
+    <ClInclude Include="WallController.h">
+      <Filter>Controller\Controllers\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplaySystem.h">
+      <Filter>Replay</Filter>
+    </ClInclude>
+    <ClInclude Include="CursorController.h">
+      <Filter>Controller\Mouse\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>Controller\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeEffect.h">
+      <Filter>Graphics\Draw\Camera\FadeEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="LerpSmoothing.h">
+      <Filter>Graphics\Draw\Camera\LerpSmoothing</Filter>
+    </ClInclude>
+    <ClInclude Include="CurbCameraMotion.h">
+      <Filter>Graphics\Draw\Camera\CurbCameraMotion</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Graphics\Draw\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="SpikeController.h">
+      <Filter>Controller\Controllers\Spike</Filter>
+    </ClInclude>
+    <ClInclude Include="BlastFurnaceController.h">
+      <Filter>Controller\Controllers\Blast furnace</Filter>
+    </ClInclude>
+    <ClInclude Include="PoisonplantController.h">
+      <Filter>Controller\Controllers\PoisonPlant</Filter>
+    </ClInclude>
+    <ClInclude Include="PoisonPlantManager.h">
+      <Filter>Controller\Controllers\PoisonPlant</Filter>
+    </ClInclude>
+    <ClInclude Include="PoisonBulletController.h">
+      <Filter>Controller\Bullet\PoisonBulletController</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorController.h">
+      <Filter>Controller\Controllers\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="Resolution.h">
+      <Filter>Graphics\Draw\Resolution</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Component\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Graphics\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue.h">
+      <Filter>Graphics\Dialogue</Filter>
+    </ClInclude>
+    <ClInclude Include="Hud.h">
+      <Filter>Graphics\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="VineController.h">
+      <Filter>Controller\Controllers\Vine</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodBoardController.h">
+      <Filter>Controller\Controllers\WoodBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="TorchController.h">
+      <Filter>Controller\Controllers\Torch</Filter>
+    </ClInclude>
+    <ClInclude Include="PuddleController.h">
+      <Filter>Controller\Controllers\Puddle</Filter>
+    </ClInclude>
+    <ClInclude Include="Archiver.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Controller\ObjectController\HELPER</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Graphics\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="WallController3.h">
+      <Filter>Controller\Controllers\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="WallController2.h">
+      <Filter>Controller\Controllers\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="WallController1.h">
+      <Filter>Controller\Controllers\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="PopupMessage.h">
+      <Filter>PopupMessage</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
